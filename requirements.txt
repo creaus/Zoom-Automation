@@ -1,0 +1,7 @@
+keyboard
+PyAutoGUI
+pandas
+subprocess-maximize
+pillow
+numpy==1.19.3
+
