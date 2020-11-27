@@ -1,0 +1,5 @@
+Firstly install the latest version of python. 
+Then go to the command prompt and run pip installation of packages as mentioned in the requirments. 
+After that you can just add timings, meeting ID's and meeting password in the excel file.
+Now finally you need to make a little change in the program. You need to type the location of the zoom app in the code.
+After that you can just run the program and automate your life.
