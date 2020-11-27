@@ -17,7 +17,7 @@ while True:
     if timestr in df.Time.values:
         df_new = df[df['Time'].astype(str).str.contains(timestr)]
         # Open the Zoom app
-        subprocess.Popen("C:\\Users\\skgsw\\AppData\\Roaming\\Zoom\\bin\\Zoom.exe")
+        subprocess.Popen("***Put the location of the Zoom app here***")
         time.sleep(9)
         # clicks the join button
         join_btn = pyautogui.locateCenterOnScreen('join_button.png')
