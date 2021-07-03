@@ -26,7 +26,7 @@ while True:
         time.sleep(5)
 
         # Write the meeting ID from the dataframe onto the Zoom App
-        keyboard.write(df_new.iloc[0, 1])
+        keyboard.write(str(df_new.iloc[0, 1]))
         pyautogui.press('enter')
         time.sleep(6)
 
